@@ -1,173 +1,132 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Báo tường lớp 12A1</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f2f2f2;
-        }
+<meta charset="UTF-8">
+<title>Báo tường lớp 12A1</title>
 
-        .container {
-            width: 1000px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        }
+<style>
 
-        /* Tiêu đề */
-        h1 {
-            text-align: center;
-            color: #c0392b;
-            margin-bottom: 5px;
-        }
-
-        h3 {
-            text-align: center;
-            margin-top: 0;
-            color: #333;
-        }
-
-        /* Khối nội dung */
-        .section {
-            margin-top: 30px;
-        }
-
-        .section h2 {
-            text-align: center;
-            color: #333;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-
-        .section p {
-            text-align: justify;
-            line-height: 1.6;
-        }
-
-        /* Ảnh + video */
-        .media {
-            display: flex;
-            margin-top: 20px;
-        }
-
-        .images {
-            width: 60%;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-        }
-
-        .images img {
-            width: 100%;
-            height: 160px;
-            object-fit: cover;
-            border: 2px solid #ccc;
-        }
-
-        .video {
-            width: 40%;
-            padding-left: 20px;
-        }
-
-        .video video {
-            width: 100%;
-            height: 340px;
-        }
-
-        /* Bình luận */
-        .comment {
-            margin-top: 30px;
-        }
-
-        .comment label {
-            display: block;
-            margin-top: 10px;
-        }
-
-        .comment input,
-        .comment textarea {
-            width: 100%;
-            padding: 6px;
-            box-sizing: border-box;
-        }
-
-        .comment button {
-            margin-top: 10px;
-            padding: 6px 15px;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 30px;
-            padding-top: 10px;
-            border-top: 1px solid #ccc;
-            font-size: 13px;
-            color: #555;
-        }
-    </style>
+body{
+    background:#eeeeee;
+    font-family:Arial;
+}
+.a{
+    width:1000px;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border:1px solid gray;
+}
+h1{
+    text-align:center;
+    font-size:28px;
+    margin:0;
+}
+h3{
+    text-align:center;
+    margin:5px 0 20px 0;
+}
+.b{
+    border:1px solid #cccccc;
+    padding:10px;
+    margin-top:15px;
+}
+.b h2{
+    text-align:center;
+    margin:5px 0 10px 0;
+}
+.c{
+    width:100%;
+    margin-top:20px;
+}
+.t{
+    width:600px;
+    margin:0;
+    padding:0;
+    border:0;
+    display:inline-block;
+    vertical-align:top;
+}
+.p{
+    width:350px;
+    margin-left:20px;
+    display:inline-block;
+    vertical-align:top;
+}
+.t img{
+    width:280px;
+    margin:5px;
+    border:1px solid #999999;
+}
+.d{
+    border:1px solid #cccccc;
+    padding:10px;
+    margin-top:20px;
+}
+input, textarea{
+    width:300px;
+    margin-top:5px;
+    padding:5px;
+    border:1px solid gray;
+}
+button{
+    margin-top:10px;
+    padding:5px 10px;
+    border:1px solid gray;
+    background:white;
+}
+footer{
+    margin-top:20px;
+    padding:10px;
+    border-top:1px solid gray;
+}
+</style>
 </head>
 <body>
-
-<div class="container">
-    <h1>Chắp cánh ước mơ</h1>
-    <h3>Báo tường của lớp 12A1 kỉ niệm ngày ra trường</h3>
-
-    <div class="section">
-        <h2>Cảm xúc ngày ra trường</h2>
-        <p>
-            Hơn mười hai năm ngồi trên ghế nhà trường, chúng em đã cùng nhau trải qua
-            biết bao kỷ niệm buồn vui. Ngày ra trường đến mang theo sự bồi hồi, lưu luyến
-            và cả những ước mơ đang chờ phía trước...
-        </p>
-    </div>
-
-    <div class="section">
-        <h2>Chắp cánh ước mơ</h2>
-        <p>
-            Tuổi học trò khép lại để mở ra một hành trình mới. Dẫu phía trước còn nhiều
-            thử thách, nhưng chúng em tin rằng với kiến thức, tình bạn và sự dìu dắt của
-            thầy cô, chúng em sẽ đủ tự tin bước tiếp.
-        </p>
-    </div>
-
-    <div class="section">
-        <div class="media">
-            <div class="images">
-                <img src="https://i.imgur.com/qIufhof.jpg" alt="">
-                <img src="https://i.imgur.com/7ZQZ4Yy.jpg" alt="">
-                <img src="https://i.imgur.com/YqZ5FzU.jpg" alt="">
-                <img src="https://i.imgur.com/d3yKp3M.jpg" alt="">
-            </div>
-
-            <div class="video">
-                <video controls>
-                    <source src="video.mp4" type="video/mp4">
-                    Trình duyệt không hỗ trợ video
-                </video>
-            </div>
-        </div>
-    </div>
-
-    <div class="comment">
-        <h2>Bình luận</h2>
-        <label>Email:</label>
-        <input type="email">
-
-        <label>Bình luận:</label>
-        <textarea rows="4"></textarea>
-
-        <button>Gửi</button>
-    </div>
-
-    <footer>
-        © 2023 Nhóm 1 - Lớp 12A1<br>
-        Thiết kế báo tường HTML & CSS
-    </footer>
+<div class="a">
+<h1>Chắp cánh ước mơ</h1>
+<h3>Báo tường của lớp 12A1 kỉ niệm ngày ra trường</h3>
+<div class="b">
+    <h2>Cảm xúc ngày ra trường</h2>
+    <p>
+    Hôm nay là ngày đặc biệt của chúng em – ngày chia tay mái trường.
+    Bao kỷ niệm buồn vui như ùa về trong tim mỗi người.
+    </p>
 </div>
-
+<div class="b">
+    <h2>Chắp cánh ước mơ</h2>
+    <p>
+    Tương lai phía trước đang chờ đón. Chúng em sẽ mang theo hành trang
+    là tình bạn, kiến thức và lời dạy của thầy cô để tự tin bước tiếp.
+    </p>
+</div>
+<div class="c">
+    <div class="t">
+        <h2>Góc ảnh</h2>
+        <img src="https://i.imgur.com/a.jpg">
+        <img src="https://i.imgur.com/b.jpg">
+        <img src="https://i.imgur.com/c.jpg">
+        <img src="https://i.imgur.com/d.jpg">
+    </div>
+    <div class="p">
+        <h2>Video</h2>
+        <video width="350" controls>
+            <source src="e.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="d">
+    <h2>Bình luận</h2>
+    Email:<br>
+    <input type="text"><br>
+    Nội dung:<br>
+    <textarea rows="4"></textarea><br>
+    <button>Gửi</button>
+</div>
+<footer>
+© 2023 Nhóm 1 - Lớp 12A1  
+Thiết kế báo tường HTML & CSS
+</footer>
+</div>
 </body>
 </html>
